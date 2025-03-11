@@ -1,0 +1,9 @@
+
+The total number of visitors is 2
+-------- The names of the countries of visitors -------
+Japan USA 
+The age of the youngest visitor: 25
+The age of the oldest visitor: 26
+The average age of the visitors: 25.5
+The shortest visit hours: 3.4
+The longest visit hours: 3.5

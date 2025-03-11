@@ -1,0 +1,9 @@
+
+The total number of visitors is 2
+-------- The names of the countries of visitors -------
+france usa 
+The age of the youngest visitor: 12
+The age of the oldest visitor: 12
+The average age of the visitors: 12
+The shortest visit hours: 1
+The longest visit hours: 7
