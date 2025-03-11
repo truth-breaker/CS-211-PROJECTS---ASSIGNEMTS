@@ -1,0 +1,39 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+#include "price.h"
+#include <string>
+using namespace std;
+
+const int MAX = 6; 
+
+class Student
+{
+ private:
+
+  string LN; 
+  char gen;
+  int num;
+  string FN;
+  int stuId;
+  int classAr[MAX];
+  Price balance;
+
+ public:
+  Student();
+  //Access to Student Class
+  Student(string f,string l, char g,int i);
+  //prototypes of all functions
+  int addCourse(int crn);
+  void viewAllCourses()const; 
+  bool dropCourse(int crn);
+  int getNumClasses();
+  int getStuID();
+  int getClassOf(int i)const;
+  string getLastName();
+  void addFee(int d,int c);
+  void reduceFee(int d, int c);
+  Price getBalance()const;
+  string getFirstName();
+  char getGender();
+};
+#endif
